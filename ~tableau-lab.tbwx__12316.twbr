@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20252.25.0514.2217                               -->
-<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -19,6 +19,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='tableau-lab_tbwx_17597560345070' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -28,7 +29,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='we_fn_use_c_marketing_customer_value_analysis' name='textscan.1tswj2t06sw3pl137fae91mxzv0m'>
-            <connection class='textscan' directory='C:/Users/julia/Desktop/Modules/Week6/W6_Day1/lab-tableau' filename='we_fn_use_c_marketing_customer_value_analysis.txt' password='' server='' />
+            <connection class='textscan' directory='C:/Users/julia/Desktop/Modules/Week6/W6_Day1/lab-tableau' filename='we_fn_use_c_marketing_customer_value_analysis.txt' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1tswj2t06sw3pl137fae91mxzv0m' name='we_fn_use_c_marketing_customer_value_analysis.txt' table='[we_fn_use_c_marketing_customer_value_analysis#txt]' type='table'>
@@ -418,7 +419,7 @@
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column caption='we_fn_use_c_marketing_customer_value_analysis.txt' datatype='table' name='[__tableau_internal_object_id__].[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]' role='measure' type='quantitative' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='pt_BR' class='hyper' dbname='C:/Users/julia/AppData/Local/Temp/TableauTemp/#TableauTemp_0l2uknk0w68fxz18y2fh601su407.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/06/2025 10:28:43 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='pt_BR' class='hyper' dbname='C:/Users/julia/AppData/Local/Temp/TableauTemp/#TableauTemp_0l2uknk0w68fxz18y2fh601su407.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
             <metadata-record class='column'>
@@ -434,7 +435,6 @@
               <approx-count>9134</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>State</remote-name>
@@ -449,7 +449,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Customer Lifetime Value</remote-name>
@@ -463,7 +462,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>4310</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Response</remote-name>
@@ -478,7 +476,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Coverage</remote-name>
@@ -493,7 +490,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Education</remote-name>
@@ -508,7 +504,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Effective To Date</remote-name>
@@ -522,7 +517,6 @@
               <aggregation>Year</aggregation>
               <approx-count>59</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>EmploymentStatus</remote-name>
@@ -537,7 +531,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender</remote-name>
@@ -552,7 +545,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Income</remote-name>
@@ -566,7 +558,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>3256</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Location Code</remote-name>
@@ -581,7 +572,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Marital Status</remote-name>
@@ -596,7 +586,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Monthly Premium Auto</remote-name>
@@ -610,7 +599,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>173</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Months Since Last Claim</remote-name>
@@ -624,7 +612,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Months Since Policy Inception</remote-name>
@@ -638,7 +625,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>100</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of Open Complaints</remote-name>
@@ -652,7 +638,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number of Policies</remote-name>
@@ -666,7 +651,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Policy Type</remote-name>
@@ -681,7 +665,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Policy</remote-name>
@@ -696,7 +679,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Renew Offer Type</remote-name>
@@ -711,7 +693,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Sales Channel</remote-name>
@@ -726,7 +707,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Total Claim Amount</remote-name>
@@ -740,7 +720,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>2337</approx-count>
               <contains-null>true</contains-null>
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Vehicle Class</remote-name>
@@ -755,7 +734,6 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Vehicle Size</remote-name>
@@ -770,7 +748,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LPT_RPT' />
-              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_532C02109AC544E6876686EBF7C53DF4]</object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -845,11 +822,6 @@
         <style>
           <style-rule element='axis'>
             <format attr='title' class='0' field='[federated.1ciy6xd0l62x1j14p0b6s0k4w8fw].[cnt:Customer:qk]' scope='rows' value='Customer Count' />
-            <format attr='width' field='[federated.1ciy6xd0l62x1j14p0b6s0k4w8fw].[cnt:Customer:qk]' value='88' />
-            <format attr='height' field='[federated.1ciy6xd0l62x1j14p0b6s0k4w8fw].[none:Gender:nk]' value='20' />
-          </style-rule>
-          <style-rule element='cell'>
-            <format attr='width' field='[federated.1ciy6xd0l62x1j14p0b6s0k4w8fw].[none:Gender:nk]' value='163' />
           </style-rule>
         </style>
         <panes>
@@ -857,18 +829,15 @@
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Bar' />
+            <mark class='Automatic' />
             <encodings>
               <color column='[federated.1ciy6xd0l62x1j14p0b6s0k4w8fw].[none:Gender:nk]' />
+              <text column='[federated.1ciy6xd0l62x1j14p0b6s0k4w8fw].[cnt:Customer:qk]' />
             </encodings>
             <style>
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
-              </style-rule>
-              <style-rule element='pane'>
-                <format attr='minwidth' value='-1' />
-                <format attr='maxwidth' value='-1' />
               </style-rule>
             </style>
           </pane>
@@ -1061,8 +1030,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='12' param='vert' type-v2='layout-flow' w='99048' x='476' y='998'>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='14' param='vert' type-v2='layout-flow' w='99048' x='476' y='998'>
                 <zone fixed-size='280' h='98004' id='5' is-fixed='true' name='2.Gender Barplot' w='99048' x='476' y='998'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1095,8 +1064,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98004' id='4' param='vert' type-v2='layout-flow' w='99048' x='476' y='998'>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98004' id='6' param='vert' type-v2='layout-flow' w='99048' x='476' y='998'>
                 <zone fixed-size='280' h='91771' id='3' is-fixed='true' name='3.Employment and Gender Barplot' w='68690' x='1726' y='3990'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1130,8 +1099,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98134' id='5' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98134' id='7' param='vert' type-v2='layout-flow' w='97538' x='1231' y='933'>
                 <zone fixed-size='280' h='55543' id='3' is-fixed='true' name='7.State Treeplot Plot' w='96462' x='-308' y='7468'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1188,8 +1157,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98130' id='12' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98130' id='14' param='vert' type-v2='layout-flow' w='99064' x='468' y='935'>
                 <zone fixed-size='280' h='49883' id='3' is-fixed='true' name='2.Gender Barplot' w='12932' x='5793' y='3855'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1310,7 +1279,7 @@
       <viewpoints>
         <viewpoint name='2.Gender Barplot' />
       </viewpoints>
-      <active id='5' />
+      <active id='-1' />
       <device-preview visible='true' />
       <simple-id uuid='{C9263804-7579-48FA-BF97-085B11E2A21A}' />
     </window>
